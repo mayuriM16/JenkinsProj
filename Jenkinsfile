@@ -8,9 +8,8 @@ stage('Build') {
 
 steps {
 
-//echo "HelloWorld"
-bat 'javac HelloWorld'
-  bat 'java -version'
+echo "HelloWorld"
+
 }
 
 }
@@ -19,8 +18,7 @@ stage('Run') {
 
 steps {
 
-//echo "HelloWorld"
-  bat 'java HelloWorld'
+echo "HelloWorld"
 }
 }
 }
